@@ -104,12 +104,6 @@ module Refinery
         end
       end
 
-      module ShareThis
-        def self.enabled?
-          Refinery::Blog.share_this_key != "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-        end
-      end
-
     end
   end
 end
